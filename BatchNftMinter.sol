@@ -186,7 +186,7 @@ contract BatchNFTMinter is ERC721URIStorage, Ownable {
         
         // Allocate the string
         bytes memory buffer = new bytes(digits);
-        
+            
         // Fill the string from right to left
         while (value != 0) {
             digits -= 1;
